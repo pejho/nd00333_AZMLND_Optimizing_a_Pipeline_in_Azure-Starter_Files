@@ -14,8 +14,11 @@ This model is then compared to an Azure AutoML run.
 
 ## Summary
 **In 1-2 sentences, explain the problem statement: e.g "This dataset contains data about... we seek to predict..."**
+The dataset that was given contained bank marketing data and the task was a using logistic regression model to determine if the client would subscribe to a term deposit.
 
 **In 1-2 sentences, explain the solution: e.g. "The best performing model was a ..."**
+In this projec we used the HyperDrive to tune the hyperparameters of the Logistic Regression model.  We also used AutoML to find the most most optimized model for the same dataset.  The best performing model that AutoML came up with was "VotingEnsemble" with accuracy of 0.9188
+
 
 ## Scikit-learn Pipeline
 **Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
